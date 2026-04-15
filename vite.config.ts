@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/lazord-Clinic-Task/', // Explicit repo name for GitHub Pages deployment
+  base: '/', // Changed for Netlify deployment (root level)
   build: {
     chunkSizeWarningLimit: 1000, // Increase limit as we have heavy 3D assets
     rollupOptions: {
